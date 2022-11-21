@@ -41,6 +41,10 @@ header{
     background-color: #475c07;
     right: 3%;
     top: 1%;
+    border-radius: 50%;
+    height:fit-content;
+    padding :2px;
+   
    }
    .bar_nav i{
     color:#c2e262;
@@ -367,10 +371,11 @@ width: 350px;
  }
 
 .foot h3{
-    text-align: center;
+   
     padding-top: 20px;
     color: #fff;
     font-size: 30px;
+    
 }
 
 .foot h4{
@@ -379,12 +384,13 @@ width: 350px;
     padding-top: 20px;
     color: #fff;
     font-size: 10px;
+    margin-left: 30px;
 }
-@media screen and (max-width:600px){
+/*@media screen and (max-width:600px){
     .flex {
         display: flex;
         flex-direction: column ;
         justify-content: space-around;
     }
 
-}
+}*/
